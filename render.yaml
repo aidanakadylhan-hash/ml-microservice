@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: flowers102-dcgan-microservice
+    env: docker
+    plan: free
+    autoDeploy: true
